@@ -1,0 +1,104 @@
+.wrapper-heading-home {
+    padding: 40px 0;
+    text-align: center;
+    h2{
+        font-size: 28px;
+        line-height: 1.6;
+        margin: 0 0 15px;
+        font-weight: 500;
+        position: relative;
+        padding: 0 0 10px;
+        display: inline-block;
+        &:before{
+            position: absolute;
+            content: "";
+            display: block;
+            width: 55px;
+            height: 1px;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 2;
+            background: #000000;
+        }
+    }
+    .wrapper-heading-home .view-all a {
+        display: inline-block;
+        font-size: 13px;
+    }
+}
+
+.pro-loop {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 378px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.pro-loop .product-img {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    .product-sale {
+        left: 10px;
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 9;
+        background: #000000;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    a{
+        display: block;
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+    }
+}
+
+.pro-loop .product-detail {
+    padding: 20px 0;
+    text-align: center;
+    .box-pro-detail {
+        z-index: 9;
+        width: 100%;
+    }
+    h3 {
+        margin: 0 0 5px;
+        font-size: 14px;
+        position: relative;
+        a{
+            color: #272727;
+            line-height: 16px;
+            overflow: hidden;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+        }
+    }
+    .box-pro-prices{
+        p{
+        color: #f94c43;
+        font-size: 14px;
+        margin: 0;
+        font-weight: 700;
+        }
+        span.pro-price-del {
+            color: #939393;
+            font-size: 13px;
+            margin-left: 5px;
+            font-weight: normal;
+        }
+    }
+
+}
+

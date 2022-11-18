@@ -1,0 +1,112 @@
+footer{
+    display: block;
+}
+.main-footer--bottom{
+    margin: 24px 0 0;
+    .container{
+        height: 263px;
+    }
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-3 {
+    width: 25%;
+    float: left;
+}
+
+.main-footer .footer-col {
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.main-footer h4 {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0 0 10px 0;
+    line-height: 21px;
+    font-size: 14px;
+}
+a{
+    color: #272727;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.main-footer h4 {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.main-footer .footer-content ul {
+    margin-bottom: 15px;
+}
+.main-footer .footer-content ul li {
+    display: block;
+    line-height: 28px;
+    position: relative;
+    padding-left: 20px;
+    a{
+        position: relative;
+        overflow: hidden;
+        &:before{
+            content: "";
+            width: 7px;
+            height: 1px;
+            background: #000000;
+            left: -18px;
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+}
+
+.col-sm-6{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-footer .footer-content.toggle-footer ul li a:before, .main-footer .footer-content.toggle-footer ul li span:before {
+    content: "";
+    width: 7px;
+    height: 1px;
+    background: #000000;
+    left: -18px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.main-footer--border {
+    border-bottom: none;
+    padding: 24px 0;
+    border-top: 1px dashed #e0d9d6;
+    p{
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
