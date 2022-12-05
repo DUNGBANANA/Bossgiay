@@ -1,10 +1,10 @@
+import { DataSandals } from './DataSandals'
 import './main.scss'
-import {DataProduct} from './DataProduct'
-function Product (){
+function Sandals (){
     return (
         <div>
             <div className='wrapper-heading-home'>
-                <h2><a href='/'>Sản Phẩm Mới</a></h2>
+                <h2><a href='/'>SLIDE/SANDALS</a></h2>
                 <div className='view-all'>
                     <a href='/'>Xem thêm</a>
                 </div>
@@ -12,19 +12,19 @@ function Product (){
 
             <div className='row'>
                 <div className='clearfix content-product-list '>
-                    {DataProduct.map((item)=>(
+                    {DataSandals.map((item)=>(
                         <div className='col-md-3 col-sm-6 col-xs-6 pro-loop'>
 
                             <div className='product-block'>
                                 <div className='product-img'>
                                     <div className='product-sale'><span>{item.sale}</span></div>
                                     <a href='/'><img src={item.src} alt=''/></a>
-
                                     <div className='button-add'>
                                     <button type='submit' title='Mua ngay'>Mua ngay</button>
                                     <button type='submit' title='Thêm vào giỏ hàng'>Thêm vào giỏ</button>
                                 </div>
                                 </div>
+                                
                                 <div className='product-detail clearfix'>
                                     <div className='box-pro-detail'>
                                         <h3 className='pro-name'>{item.code} {item.name}</h3>
@@ -48,4 +48,4 @@ function Product (){
     )
 }
 
-export default Product;
+export default Sandals

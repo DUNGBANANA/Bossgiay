@@ -104,6 +104,10 @@
 .main-header-action{
     justify-content: flex-end;
 }
+.row-flex{
+    align-items: center;
+    display: flex;
+}
 
 .desk-menu >ul > li > a{
     &:hover,

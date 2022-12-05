@@ -1,0 +1,116 @@
+.wrapbox-heading-account {
+    height: 100vh;
+    border-right: 1px solid #ededed;
+    display: -webkit-flex;
+    align-items: center;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+
+.wrapbox-heading-account .header-page {
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.wrapbox-heading-account .header-page h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 0;
+    line-height: initial;
+}
+
+.wrapbox-heading-account .header-page:after {
+    content: "";
+    background: #000;
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 30px;
+}
+
+.wrapbox-content-account {
+    padding: 150px 100px 100px 50px;
+    // display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.large_form {
+    margin-bottom: 30px;
+}
+
+.clearfix{
+    &:before{
+        content: '';
+        display: table;
+    }
+}
+
+
+label {
+    // display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input {
+        width: 100%;
+        height: 55px;
+        border: 1px solid transparent;
+        background: #ededed;
+        color: #272727;
+        padding: 0 20px;
+        font-weight: 500;
+        -webkit-appearance: none;
+}
+.action_account_custommer{
+    float: left;
+}
+
+.action_account_custommer .action_bottom, .action_account_custommer .req_pass {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button{
+    position: relative;
+    line-height: normal;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: transparent;
+    
+}
+
+.userbox .action_bottom .btn {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0 30px;
+    height: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: transparent;
+    &:hover{
+        color: #000;
+        background: #fff;
+    }
+}
+
+.action_account_custommer .req_pass {
+    margin-left: 20px;
+}
+
+.req_pass {
+    color: #959898;
+    font-weight: 500;
+}

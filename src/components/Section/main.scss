@@ -33,13 +33,42 @@
         width: calc(100%/6);
         padding: 2px;
         .gallery_item {
-            position: relative;
-            overflow: hidden;
-            display: block;
             img{
                 max-width: 100%;
                 vertical-align: center;
             }
+        }
+    }
+}
+
+.list-gallery ul li .gallery_item {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.list-gallery ul li{
+        .gallery_item{
+            &:before{
+                position: absolute;
+                top: 0;
+                left: -100%;
+                z-index: 2;
+                display: block;
+                content: '';
+                width: 50%;
+                height: 100%;
+                background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+                transform: skewX(-25deg);
+                transition: 0.3s ease-in-out;
+            } 
+        }
+}
+
+.list-gallery ul li{
+    &:hover{
+        .gallery_item{
+            
+            overflow: visible;
         }
     }
 }
