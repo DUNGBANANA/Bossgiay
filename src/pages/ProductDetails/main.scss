@@ -1,0 +1,19 @@
+.breadcrumb-shop .breadcrumb-arrows li {
+    font-size: 13px;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.breadcrumb-shop .breadcrumb>li+li:before {
+    padding: 0 3px;
+}
+.breadcrumb-shop .breadcrumb-arrows {
+    padding: 15px 10px;
+    background: transparent;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+    float: left;
+}

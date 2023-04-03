@@ -1,7 +1,7 @@
 export const DataProduct = [
     {
-        id: 1,
-        code: '[ DQ7582-101] ',
+        "id": 1,
+        "code": '[ DQ7582-101] ',
         name: "Giày Nike Air Force 1 Low '07 SE Sail Malachite",
         priceSale: '3,390,000',
         price: '4,250,000',

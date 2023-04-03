@@ -30,8 +30,8 @@
     margin-top: 30px;
 }
 
-.wrapbox-content-account {
-    padding: 150px 100px 100px 50px;
+.wrapbox-content-account-register {
+    padding: 0px 100px 100px 50px;
     // display: -webkit-flex;
     align-items: center;
     justify-content: center;
@@ -129,10 +129,4 @@ input {
 }
 .ant-form-item{
     margin-top: 30px;
-}
-.ant-col-16 {
-    max-width: 100%;
-}
-.ant-input {
-    font-size: 16px !important;
 }
